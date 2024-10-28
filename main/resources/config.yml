@@ -1,0 +1,9 @@
+# ItemSkill 플러그인 설정
+settings:
+  dash:
+    power: 1.5    # 돌진 강도 (기본값: 1.5)
+    upward: 0.2   # 위로 뜨는 정도 (기본값: 0.2)
+    cooldown: 10  # 쿨타임 (초)
+
+# 능력 아이템 저장용 (자동 생성)
+abilityItem: null

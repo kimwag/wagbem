@@ -1,0 +1,18 @@
+name: ItemSkill
+version: '1.0'
+main: AntiSpam.itemskill.Itemskill
+description: 특정 아이템을 머리에 쓰고 점프+쉬프트로 돌진하는 플러그인
+api-version: '1.20'
+authors: [YourName]
+
+commands:
+  abilityitem:
+    description: "돌진 능력을 가진 아이템을 설정합니다"
+    usage: "/<command>"
+    aliases: [능력아이템]
+    permission: itemskill.admin
+
+permissions:
+  itemskill.admin:
+    description: "능력 아이템을 설정할 수 있는 권한"
+    default: op
